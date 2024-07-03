@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/components/sign-in-screen/sign-in-screen.component.css"],
+  "sourcesContent": ["\n  .error {\n    color: red;\n    font-size: 0.875rem;\n    margin-top: 0.25rem;\n  }\n\n  .error-border {\n    border-top-color: red !important;\n  }\n\n"],
+  "mappings": "AACE,CAAC,MACC,MAAO,IACP,UAAW,QACX,WAAY,MACd,CAEA,CAAC,aACC,iBAAkB,aACpB",
+  "names": []
+}

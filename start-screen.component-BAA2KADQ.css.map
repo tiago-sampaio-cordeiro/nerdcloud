@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/components/start-screen/start-screen.component.css"],
+  "sourcesContent": ["\n.custom-banner-height {\n  height: 400px;\n}\n"],
+  "mappings": "AACA,CAAC,qBACC,OAAQ,KACV",
+  "names": []
+}

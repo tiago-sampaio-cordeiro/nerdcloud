@@ -1,0 +1,95 @@
+{
+  "configVersion": 1,
+  "timestamp": 1719970286387,
+  "index": "/nerdcloud/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/nerdcloud/favicon.ico",
+        "/nerdcloud/index.html",
+        "/nerdcloud/main-IFNUJYVX.js",
+        "/nerdcloud/manifest.webmanifest",
+        "/nerdcloud/polyfills-EJ3NC7TK.js",
+        "/nerdcloud/styles-AHHFTMHJ.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/nerdcloud/assets/icons/icon-128x128.png",
+        "/nerdcloud/assets/icons/icon-144x144.png",
+        "/nerdcloud/assets/icons/icon-152x152.png",
+        "/nerdcloud/assets/icons/icon-192x192.png",
+        "/nerdcloud/assets/icons/icon-384x384.png",
+        "/nerdcloud/assets/icons/icon-512x512.png",
+        "/nerdcloud/assets/icons/icon-72x72.png",
+        "/nerdcloud/assets/icons/icon-96x96.png",
+        "/nerdcloud/assets/images/apps.34913.13965383722089887 1.png",
+        "/nerdcloud/assets/images/avatar.jpeg",
+        "/nerdcloud/assets/images/cloudOrange1 1.svg",
+        "/nerdcloud/assets/images/godofwar.png",
+        "/nerdcloud/assets/images/login-button.png",
+        "/nerdcloud/assets/images/login-image.png",
+        "/nerdcloud/assets/images/logo.png",
+        "/nerdcloud/media/login-image-HLZCRCSV.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/nerdcloud/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/nerdcloud/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/nerdcloud/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/nerdcloud/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/nerdcloud/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/nerdcloud/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/nerdcloud/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/nerdcloud/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/nerdcloud/assets/images/apps.34913.13965383722089887 1.png": "dc571649e72f747042c24aa3f980cd424ee393b0",
+    "/nerdcloud/assets/images/avatar.jpeg": "e45eceb09a5211b96fc8884dff9b87721dcae596",
+    "/nerdcloud/assets/images/cloudOrange1 1.svg": "9d6e26bd87a5fb973589fa491b7f0ea64a9699cf",
+    "/nerdcloud/assets/images/godofwar.png": "4728b7c34c1cea34c9bf1416cc9cdd211db9228e",
+    "/nerdcloud/assets/images/login-button.png": "ba890f74aba41a3ea712b29db7178fc6da74c780",
+    "/nerdcloud/assets/images/login-image.png": "df14433d9b12513323a25c62e7283bceb6b76140",
+    "/nerdcloud/assets/images/logo.png": "aeae2cd65ffc9fd154bbc84d90cda27349b886bc",
+    "/nerdcloud/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/nerdcloud/index.html": "35367e6c1f696b9b54c39efd9b75c71a7f18b106",
+    "/nerdcloud/main-IFNUJYVX.js": "0e92691d924f1a13e386135fa90c58cd6b2ab082",
+    "/nerdcloud/manifest.webmanifest": "fda1284aac4d1122b81494f37a23e8c03ef73a6b",
+    "/nerdcloud/media/login-image-HLZCRCSV.png": "df14433d9b12513323a25c62e7283bceb6b76140",
+    "/nerdcloud/polyfills-EJ3NC7TK.js": "58946480b5de4ba40e570671ce8c6df64f486bc7",
+    "/nerdcloud/styles-AHHFTMHJ.css": "cda2de5d390a5082d1b7b385bcf0a104c2921291"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

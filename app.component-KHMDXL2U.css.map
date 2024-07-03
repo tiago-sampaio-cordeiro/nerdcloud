@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.css"],
+  "sourcesContent": ["body.with-navbar-menu {\n  padding-top: 4rem;\n  padding-bottom: 4rem;\n}\n"],
+  "mappings": "AAAA,IAAI,CAAC,iBACH,YAAa,KACb,eAAgB,IAClB",
+  "names": []
+}

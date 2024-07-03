@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/components/menu/menu.component.css"],
+  "sourcesContent": ["/* menu.component.css */\n.text-orange-500 {\n  color: #f97316;\n}\n\n.text-white {\n  color: #ffffff;\n}\n\nsvg.text-orange-500 {\n  fill: #f97316;\n}\n\nsvg.text-white {\n  fill: #ffffff;\n}\n"],
+  "mappings": "AACA,CAAC,gBACC,MAAO,OACT,CAEA,CAAC,WACC,MAAO,IACT,CAEA,GAAG,CARF,gBASC,KAAM,OACR,CAEA,GAAG,CARF,WASC,KAAM,IACR",
+  "names": []
+}
