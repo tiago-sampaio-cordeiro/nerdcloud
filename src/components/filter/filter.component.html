@@ -1,0 +1,55 @@
+<button class="btn btn-ghost" onclick="my_modal_2.showModal()">
+  <svg xmlns="http://www.w3.org/2000/svg" class="fill-orange-500 size-6" viewBox="0 0 512 512">
+    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+    <path d="M3.9 54.9C10.5 40.9 24.5 32 40 32H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L320 320.9V448c0 12.1-6.8 23.2-17.7 28.6s-23.8 4.3-33.5-3l-64-48c-8.1-6-12.8-15.5-12.8-25.6V320.9L9 97.3C-.7 85.4-2.8 68.8 3.9 54.9z"/>
+  </svg>
+</button>
+
+<dialog id="my_modal_2" class="modal">
+  <div class="modal-box bg-zinc-900/90 w-98">
+    <form method="dialog" class="modal-backdrop mr-3">
+      <h2 class="text-center text-white text-xl mb-4 underline underline-offset-8 decoration-white">Genre</h2>
+
+      <div class="grid grid-cols-2 gap-4 px-4">
+        <div class="form-control flex items-center">
+          <input type="radio" name="radio-10" class="radio border-white checked:bg-orange-600" checked />
+          <span class="ml-2 text-lg text-white">Action</span>
+        </div>
+        <div class="form-control flex items-center">
+          <input type="radio" name="radio-10" class="radio border-white checked:bg-orange-600"/>
+          <span class="ml-2 text-lg text-white">Adventure</span>
+        </div>
+        <div class="form-control flex items-center">
+          <input type="radio" name="radio-10" class="radio border-white checked:bg-orange-600"/>
+          <span class="ml-2 text-lg text-white">RPG</span>
+        </div>
+        <div class="form-control flex items-center">
+          <input type="radio" name="radio-10" class="radio border-white checked:bg-orange-600"/>
+          <span class="ml-2 text-lg text-white">JRPG</span>
+        </div>
+        <div class="form-control flex items-center">
+          <input type="radio" name="radio-10" class="radio border-white checked:bg-orange-600"/>
+          <span class="ml-2 text-lg text-white">Racing</span>
+        </div>
+        <div class="form-control flex items-center">
+          <input type="radio" name="radio-10" class="radio border-white checked:bg-orange-600"/>
+          <span class="ml-2 text-lg text-white">Simulation</span>
+        </div>
+        <div class="form-control flex items-center">
+          <input type="radio" name="radio-10" class="radio border-white checked:bg-orange-600"/>
+          <span class="ml-2 text-lg text-white">Souls-like</span>
+        </div>
+        <div class="form-control flex items-center">
+          <input type="radio" name="radio-10" class="radio border-white checked:bg-orange-600"/>
+          <span class="ml-2 text-lg text-white">Hack 'n Slash</span>
+        </div>
+      </div>
+
+      <div class="flex justify-end mt-4">
+        <button onclick="my_modal_2.close()" class="btn btn-ghost text-white hover:text-orange-500 border-zinc-700">Close</button>
+      </div>
+    </form>
+  </div>
+</dialog>
+
+

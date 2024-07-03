@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+.checked .fill-current {
+  color: white; /* Icon color */
+}
+
+.checked .btm-nav-label {
+  color: white;
+}

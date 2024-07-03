@@ -1,0 +1,83 @@
+<div class="bg-zinc-900 flex items-center justify-between mt-4 p-14">
+  <div class="flex items-center">
+    <div class="avatar">
+      <div class="w-20 rounded-full">
+        <img src="assets/images/avatar.jpeg" alt="avatar">
+      </div>
+    </div>
+    <div class="ml-4">
+      <p class="text-white text-xl">
+        <input class="bg-transparent"
+               type="text"
+               name="accountName"
+               id="accountName"
+               [(ngModel)]="accountName"
+               (blur)="updateAccountName()"
+               (keydown.enter)="updateAccountName()"
+               >
+      </p>
+      <form>
+        <input class="bg-transparent text-white"
+               type="date"
+               name="birthday"
+               id="birthday"
+               [(ngModel)]="birthday"
+               placeholder="YYYY-MM-DD"
+        >
+      </form>
+      <p class="text-white">
+        birthday_  {{ birthday | date }}
+      </p>
+      <span class="text-yellow-500 text-sm font-bold">Premium Membership</span>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" class="fill-orange-500 hover:fill-white h-6 w-6" viewBox="0 0 448 512">
+    <path d="M135.2 17.7C140.6 6.8 151.7 0 163.8 0H284.2c12.1 0 23.2 6.8 28.6 17.7L320 32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 96 0 81.7 0 64S14.3 32 32 32h96l7.2-14.3zM32 128H416V448c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V128zm96 64c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16z"/>
+  </svg>
+</div>
+<div class="bg-zinc-900 min-h-screen p-4 pl-8 pr-8">
+  <div tabindex="0" class="collapse collapse-arrow bg-zinc-800/50 mb-4">
+    <div class="collapse-title text-xl font-medium text-white">Membership Plan</div>
+    <div class="collapse-content">
+      <p class="mb-2 text-white">Upgrade</p>
+      <p class="mb-2 text-white">Cancel</p>
+    </div>
+  </div>
+
+  <div class="collapse bg-zinc-800/50 text-white mb-4">
+    <input type="checkbox" />
+    <div class="collapse-title text-xl font-medium">Notifications</div>
+    <div class="collapse-content">
+      <div class="form-control">
+        <label class="label cursor-pointer">
+          <span class="label-text text-white">Turn On/Off</span>
+          <input type="checkbox" class="toggle" checked="checked" />
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-4">
+    <p class="text-zinc-500 text-xl font-medium">Languages</p>
+  </div>
+
+  <div class="collapse bg-zinc-800/50 text-white mb-4">
+    <input type="checkbox" />
+    <div class="collapse-title text-xl font-medium">Subtitles</div>
+      <div class="collapse-content">
+        <button class="ml-6 btn btn-ghost text-white border-zinc-700 focus:border-orange-500 text-lg">Go to Selection</button>
+      </div>
+  </div>
+
+  <div class="collapse bg-zinc-800/50 text-white mb-4">
+    <input type="checkbox" />
+    <div class="collapse-title text-xl font-medium">Audio</div>
+    <div class="collapse-content">
+      <button class="ml-6 btn btn-ghost text-white border-zinc-700 focus:border-orange-500 text-lg">Go to Selection</button>
+    </div>
+  </div>
+
+<form (ngSubmit)="logOut()">
+  <button type="submit" class="text-xl text-orange-500 hover:text-white place">Log Out</button>
+</form>
+</div>

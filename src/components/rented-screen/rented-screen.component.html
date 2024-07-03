@@ -1,0 +1,11 @@
+<div class="flex items-center pt-20 bg-zinc-900">
+  <p class="text-white text-xl ml-6">Rented</p>
+  <app-filter></app-filter>
+</div>
+<div class="bg-zinc-900 min-h-screen flex items-center justify-center w-full">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full pt-10 pb-20 mx-6">
+      <div class="bg-zinc-900" *ngFor="let game of games; index as i">
+        <app-cards [game]="game" *ngIf="isRented(game)"></app-cards>
+      </div>
+    </div>
+  </div>

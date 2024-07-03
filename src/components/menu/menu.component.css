@@ -1,0 +1,16 @@
+/* menu.component.css */
+.text-orange-500 {
+  color: #f97316;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+svg.text-orange-500 {
+  fill: #f97316;
+}
+
+svg.text-white {
+  fill: #ffffff;
+}

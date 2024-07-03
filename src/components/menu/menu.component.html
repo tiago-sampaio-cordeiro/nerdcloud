@@ -1,0 +1,32 @@
+<div class="btm-nav bg-slate-950 fixed bottom-0 z-50">
+  <button (click)="selectMenu('home')" [routerLink]="['/start-screen']" [ngClass]="{'checked': selectedMenu === 'home'}">
+    <svg xmlns="http://www.w3.org/2000/svg" [ngClass]="{'text-white': selectedMenu === 'home', 'text-orange-500': selectedMenu !== 'home'}" viewBox="0 0 576 512">
+      <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/>
+    </svg>
+    <span [ngClass]="{'text-white': selectedMenu === 'home', 'text-orange-500': selectedMenu !== 'home'}">Home</span>
+  </button>
+  <button (click)="selectMenu('rented')" [routerLink]="['/rented-screen']" [ngClass]="{'checked': selectedMenu === 'rented'}">
+    <svg xmlns="http://www.w3.org/2000/svg" [ngClass]="{'text-white': selectedMenu === 'rented', 'text-orange-500': selectedMenu !== 'rented'}" viewBox="0 0 384 512">
+      <path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/>
+    </svg>
+    <span [ngClass]="{'text-white': selectedMenu === 'rented', 'text-orange-500': selectedMenu !== 'rented'}">Rented</span>
+  </button>
+  <button (click)="selectMenu('browse')" [routerLink]="['/browse-screen']" [ngClass]="{'checked': selectedMenu === 'browse'}">
+    <svg xmlns="http://www.w3.org/2000/svg" [ngClass]="{'text-white': selectedMenu === 'browse', 'text-orange-500': selectedMenu !== 'browse'}" viewBox="0 0 512 512">
+      <path d="M432 64H208c-8.8 0-16 7.2-16 16V96H128V80c0-44.2 35.8-80 80-80H432c44.2 0 80 35.8 80 80V304c0 44.2-35.8 80-80 80H416V320h16c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16zM0 192c0-35.3 28.7-64 64-64H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192zm64 32c0 17.7 14.3 32 32 32H288c17.7 0 32-14.3 32-32s-14.3-32-32-32H96c-17.7 0-32 14.3-32 32z"/>
+    </svg>
+    <span [ngClass]="{'text-white': selectedMenu === 'browse', 'text-orange-500': selectedMenu !== 'browse'}">Browse</span>
+  </button>
+  <button (click)="selectMenu('couchplay')" [routerLink]="['/couchplay-screen']" [ngClass]="{'checked': selectedMenu === 'couchplay'}">
+    <svg xmlns="http://www.w3.org/2000/svg" [ngClass]="{'text-white': selectedMenu === 'couchplay', 'text-orange-500': selectedMenu !== 'couchplay'}" viewBox="0 0 640 512">
+      <path d="M64 160C64 89.3 121.3 32 192 32H448c70.7 0 128 57.3 128 128v33.6c-36.5 7.4-64 39.7-64 78.4v48H128V272c0-38.7-27.5-71-64-78.4V160zM544 272c0-20.9 13.4-38.7 32-45.3c5-1.8 10.4-2.7 16-2.7c26.5 0 48 21.5 48 48V448c0 17.7-14.3 32-32 32H576c-17.7 0-32-14.3-32-32H96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V272c0-26.5 21.5-48 48-48c5.6 0 11 1 16 2.7c18.6 6.6 32 24.4 32 45.3v48 32h32H512h32V320 272z"/>
+    </svg>
+    <span [ngClass]="{'text-white': selectedMenu === 'couchplay', 'text-orange-500': selectedMenu !== 'couchplay'}">Couchplay</span>
+  </button>
+  <button (click)="selectMenu('account')" [routerLink]="['/account-screen']" [ngClass]="{'checked': selectedMenu === 'account'}">
+    <svg xmlns="http://www.w3.org/2000/svg" [ngClass]="{'text-white': selectedMenu === 'account', 'text-orange-500': selectedMenu !== 'account'}" viewBox="0 0 512 512">
+      <path d="M406.5 399.6C387.4 352.9 341.5 320 288 320H224c-53.5 0-99.4 32.9-118.5 79.6C69.9 362.2 48 311.7 48 256C48 141.1 141.1 48 256 48s208 93.1 208 208c0 55.7-21.9 106.2-57.5 143.6zm-40.1 32.7C334.4 452.4 296.6 464 256 464s-78.4-11.6-110.5-31.7c7.3-36.7 39.7-64.3 78.5-64.3h64c38.8 0 71.2 27.6 78.5 64.3zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-272a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm-88-40a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z"/>
+    </svg>
+    <span [ngClass]="{'text-white': selectedMenu === 'account', 'text-orange-500': selectedMenu !== 'account'}">Account</span>
+  </button>
+</div>
