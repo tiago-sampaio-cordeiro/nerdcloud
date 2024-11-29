@@ -22,6 +22,7 @@
     "@angular/service-worker": "^18.0.5",
     "angular-cli-ghpages": "^2.0.1",
     "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
@@ -47,5 +48,6 @@
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.",
   "main": "tailwind.config.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
